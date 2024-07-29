@@ -1,6 +1,6 @@
 from django.db import models
-from blogs.models import Author, Blog
-from teachers.models import Teacher
+from blog.models import Author, Blog
+from teacher.models import Teacher
 
 
 class Category(models.Model):
